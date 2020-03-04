@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+    <head>
+        <title>BookList</title>
+    </head>
+    <body>
+        <h2>List of books : </h2>
+        <ul>
+            <li onclick="myFunction()">Anna Karenina by Leo Tolstoy. ...</li>
+            <li onclick="myFunction()">Madame Bovary by Gustave Flaubert. ...</li>
+            <li onclick="myFunction()">War and Peace by Leo Tolstoy. ...</li>
+            <li onclick="myFunction()">The Great Gatsby by F. ...</li>
+            <li onclick="myFunction()">Lolita by Vladimir Nabokov. ...</li>
+            <li onclick="myFunction()">Middlemarch by George Eliot. ...</li>
+            <li onclick="myFunction()">The Adventures of Huckleberry Finn by Mark Twain. ...</li>
+            <li onclick="myFunction()">The Stories of Anton Chekhov by Anton Chekhov.</li>
+            </ul>
+            <script>
+                function myFunction() {
+                    var ask = window.confirm("Adding this book to cart");    
+                    if (ask) {
+                        window.location.href = "C:/Users/suman/Desktop/Library/Cart.html";
+                    }
+                }
+            </script>
+    </body>
+</html>
